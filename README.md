@@ -11,11 +11,11 @@ Repository ini berisi dokumentasi akhir dari proyek analisis data Drama Korea. P
 
 ## 🎯 Objectives (Rumusan Masalah)
 Analisis ini menjawab 5 pertanyaan strategis:
-1.  **Star Power:** Apakah aktor terkenal menjamin rating tinggi?
-2.  **Genre Distribution:** Bagaimana pola durasi episode pada setiap genre?
-3.  **Content Preferences:** Tema/Tag apa yang mendominasi drama rating tertinggi?
-4.  **Efficiency:** Apakah drama panjang cenderung membosankan (korelasi negatif)?
-5.  **Market Trend:** Bagaimana tren kualitas drama dari tahun ke tahun?
+1. **Star Power** Apakah aktor terkenal menjamin rating tinggi?
+2. **Genre Trends:** Bagaimana pergeseran selera pasar dari tahun ke tahun?
+3. **Content Preferences:** Tema/Tag apa yang paling disukai penonton (Rating > 9.0)?
+4. **Duration Efficiency:** Apakah jumlah episode mempengaruhi kualitas rating?
+5. **Market Shift:** Apakah terjadi pergeseran genre 3 tahun terakhir ini?
 
 ---
 
@@ -24,10 +24,10 @@ Analisis ini menjawab 5 pertanyaan strategis:
 Berdasarkan analisis terhadap 350 judul drama, ditemukan insight berikut:
 
 ### 1. Star Power is Real
-> Drama dengan *Top Cast* (seperti Lee Je Hoon, Nam Goong Min) konsisten meraih rating rata-rata **>8.9**. Pemilihan aktor adalah investasi aman untuk kualitas awal.
+> Drama dengan *Top Cast* (seperti Lee Je Hoon, Song Hye Kyo) konsisten meraih rating rata-rata **>8.9**. Pemilihan aktor adalah investasi aman untuk kualitas awal.
 
 ### 2. Genre vs. Duration Insights
-> Berbeda dengan asumsi umum, genre **Historical** modern rata-rata hanya memiliki **22 episode**, efisien dan setara dengan **Romance**. Durasi terpanjang dipegang oleh genre **Family (32 episode)**.
+> Berbeda dengan asumsi umum, genre **Historical** modern rata-rata hanya memiliki **19 episode**, efisien dan setara dengan **Comedy**. Durasi terpanjang dipegang oleh genre **Romance (25 episode)**.
 
 ### 3. Viewer Preferences
 > Pada drama *Masterpiece* (>9.0), tag yang dominan adalah **'Best Friends'**, **'Strong Female Lead'**, dan **'Bromance'**. Penonton lebih menghargai kedalaman hubungan karakter daripada romansa klise.
@@ -36,7 +36,7 @@ Berdasarkan analisis terhadap 350 judul drama, ditemukan insight berikut:
 > **Tidak ada korelasi (negatif/positif)** antara jumlah episode dan rating. Kualitas naskah adalah penentu utama, bukan panjang/pendeknya drama.
 
 ### 5. Warning: Quality Decline
-> Terjadi penurunan rata-rata rating yang signifikan pada periode **2023-2024 (7.8)** dibandingkan tahun 2020-2021 (8.6), mengindikasikan kejenuhan pasar (*market saturation*).
+> Terjadi Pergeseran. Data tren tahunan menunjukkan pada tahun 2023-2024 produksi genre Romance selalu lebih sedikit daripada Action dan Thriller.
 
 ---
 
